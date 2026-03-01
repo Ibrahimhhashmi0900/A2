@@ -1,0 +1,29 @@
+
+
+## 🔗 Working Links
+
+### 1. Main Catalog (Text Format)
+```
+http://192.168.0.101:3000/
+```
+This shows the API homepage with all available endpoints listed in text format.
+
+### 2. Menu JSON Data
+```
+http://192.168.0.101:3000/api/menu
+```
+This shows all menu items with:
+- Names
+- Prices
+- Categories  
+- Descriptions
+- Image URLs
+- Ratings
+- Prep times
+
+### 3. Test in Browser
+Open these links in your browser to verify they work:
+- First link should show the restaurant API welcome page
+- Second link should show all 10 menu items with details
+
+**Note:** Make sure your server is running (`node server.js`) before testing these links!
